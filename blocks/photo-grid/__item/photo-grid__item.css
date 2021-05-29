@@ -1,0 +1,4 @@
+.photo-grid__item {
+    grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+.header__lang-link_text_decoration {
+    margin-right: 18px;
+    text-decoration-line: underline;
+}
+
+.header__lang-link_text_decoration:last-child {
+    margin-right: 0;
+    text-decoration: none;
+}
