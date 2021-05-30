@@ -1,5 +1,6 @@
 .page__footer {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin: 0 48px;
     box-sizing: border-box;
