@@ -26,7 +26,6 @@
         max-width: 720px;
         min-height: 434px;
         width: 100%;
-        min-height: 581px;
         margin-bottom: 73px;
     }
 }
@@ -49,9 +48,5 @@
         margin: 0 auto;
         max-width: 320px;
         min-height: 1042px;
-        /*margin-bottom: 50px;
-        grid-template-columns: minmax(320px, 288px);
-        grid-column-gap: 0px;
-        grid-row-gap: 32px;*/
     }
 }
