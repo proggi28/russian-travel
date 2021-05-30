@@ -14,3 +14,10 @@ text-align: center;
 color: #fff;
 position: relative;
 }
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

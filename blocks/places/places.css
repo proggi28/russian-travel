@@ -1,3 +1,12 @@
 .places {
+    max-width: 984px;
+    margin: 0 auto;
     margin-top: 92px;
+    display: grid;
+    /*grid-template-columns: minmax(440px, 460px) 1fr;
+    grid-template-areas: 
+    "title url"
+    "image text";
+    grid-row-gap: 48px;
+    grid-column-gap: 40px;*/
 }
