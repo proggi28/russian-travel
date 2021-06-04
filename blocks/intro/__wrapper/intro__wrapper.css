@@ -1,28 +1,26 @@
 .intro__wrapper {
     max-width: 690px;
-    margin: 0 auto;
     margin-left: 148px;
     margin-right: auto;
+    margin-top: 92px;
     margin-bottom: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .intro__wrapper {
         margin-left: 48px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .intro__wrapper {
         margin: 88px 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .intro__wrapper {
         margin: 64px 16px;
-        max-width: 288px;
-        min-height: 754px;
     }
 }
 

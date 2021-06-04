@@ -1,6 +1,5 @@
 .place__title {
     max-width: 460px;
-    /*min-height: 152px;*/
     align-self: end;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -11,21 +10,19 @@
     padding: 0;
 }
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1023px) {
     .place__title {
-        max-width: 440px;
+        font-size: 42px;
+        line-height: 46px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .place__title {
-        max-width: 340px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .place__title {
-        max-width: 288px;
         font-size: 32px;
+        line-height: 35px;
+        margin: 0 16px;
     }
 }
+

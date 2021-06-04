@@ -1,6 +1,5 @@
 .place__link {
     max-width: 456px;
-    min-height: 22px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -9,8 +8,4 @@
     color: #FFFFFF;
     text-decoration-line: underline;
     transition: opacity .2s ease-in-out;
-}
-
-.place__link:hover {
-    opacity: .7;
 }

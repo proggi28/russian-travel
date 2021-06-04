@@ -2,7 +2,6 @@
 margin: 0;
 padding: 0;
 max-width: 560px;
-min-height: 152px;
 font-family: "Inter", Arial, Helvetica, sans-serif;
 font-style: normal;
 font-weight: 900;
@@ -15,26 +14,25 @@ position: relative;
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
     .cover__title {
         margin: 0 104px;
         margin-bottom: 32px;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
     .cover__title {
         margin: 0 16px;
-        line-height: 35px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .cover__title {
         margin: 0 16px;
         font-size: 32px;
-        min-height: 70px;
         max-width: 288px;
         margin-bottom: 16px;
+        line-height: 35px;
     }
 }

@@ -1,0 +1,9 @@
+.footer__list-style {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__list-style {
+        margin-bottom: 32px;
+    }
+}
