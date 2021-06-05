@@ -2,10 +2,6 @@
     margin-right: 18px;
 }
 
-.header__list-style:first-child {
-    text-decoration: underline;
-}
-
 .header__list-style:last-child {
     margin-right: 0;
 }
